@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>时间胶卷 - Time Reel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/lucide-icon@latest/lucide.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+</head>
+<body class="bg-black text-white min-h-screen">
+    <header class="py-6 border-b border-zinc-800 sticky top-0 bg-black/90 backdrop-blur-sm z-10">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <h1 class="text-2xl font-bold tracking-tight">时间胶卷</h1>
+                <nav>
+                    <ul class="flex space-x-6 text-sm">
+                        <li><a href="#concept" class="hover:text-gray-300 transition">概念</a></li>
+                        <li><a href="#system" class="hover:text-gray-300 transition">系统</a></li>
+                        <li><a href="#awakened" class="hover:text-gray-300 transition">觉醒者</a></li>
+                        <li><a href="#universes" class="hover:text-gray-300 transition">平行宇宙</a></li>
+                        <li><a href="#stories" class="hover:text-gray-300 transition">故事片段</a></li>
+                        <li><a href="file:///D:/网站/人物关系网/jcG4_8S/index.html" class="hover:text-gray-300 transition">人物关系网</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12">
+        <!-- Hero section -->
+        <section class="py-16 flex flex-col items-center text-center">
+            <h2 class="text-5xl font-bold tracking-tighter mb-6">时间胶卷 Time Reel</h2>
+            <p class="text-xl text-gray-400 max-w-2xl mb-10">一个关于记忆、情绪与重生的世界</p>
+            <div class="quote-container bg-zinc-900 p-6 rounded-lg max-w-2xl">
+                <p class="text-lg italic text-gray-300">"时间是一条河流，但记忆是河流中的宝石。我们追逐宝石，却忘了河流本身才是生命。"</p>
+            </div>
+        </section>
+
+        <!-- Concept section -->
+        <section id="concept" class="py-16 border-t border-zinc-800">
+            <h2 class="text-3xl font-bold mb-10">核心概念</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="concept-card" data-concept="time-reel">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-film"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M7 3v18"/><path d="M17 3v18"/><path d="M3 7h18"/><path d="M3 17h18"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">时间胶卷 (Time Reel)</h3>
+                    </div>
+                    <p class="text-gray-400">这是一个特殊的城市，每隔一段时间会经历一次"重置"。重置会将城市恢复到某个特定的历史状态，所有居民的记忆被清除，但部分个体（觉醒者）除外。</p>
+                </div>
+
+                <div class="concept-card" data-concept="memory-economy">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.04Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.04Z"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">记忆经济 (Memory Economy)</h3>
+                    </div>
+                    <p class="text-gray-400">记忆不再是私人物品，而是一种可以交易的商品。人们可以通过各种手段（包括合法交易和非法窃取）获取他人的记忆，并将其用于各种目的。</p>
+                </div>
+
+                <div class="concept-card" data-concept="emotion-currency">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart-handshake"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"/><path d="m18 15-2-2"/><path d="m15 18-2-2"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">情绪货币 (Emotion Currency)</h3>
+                    </div>
+                    <p class="text-gray-400">情绪可以被量化和交易。特定的情绪可以被提取出来，转化为一种名为"情感颗粒"的虚拟货币，用于购买商品和服务。不同情绪有不同的汇率。</p>
+                </div>
+
+                <div class="concept-card" data-concept="awakened">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">觉醒者 (Awakened)</h3>
+                    </div>
+                    <p class="text-gray-400">一群在时间重置中保留了部分甚至全部记忆的个体。他们可以通过触摸窃取他人记忆，但会加速自己记忆的崩溃。觉醒者之间交易记忆碎片，也有人植入虚假记忆的"记忆炸弹"。</p>
+                </div>
+            </div>
+
+            <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="concept-card" data-concept="redemption">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-leaf"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">赎罪机制 (Redemption Mechanism)</h3>
+                    </div>
+                    <p class="text-gray-400">当一个人真正忏悔时，罪恶造成的伤害仍然存在，但自己会消失消散。每次轮回其实是在不同平行宇宙间切换，真正的逃脱需要同时在七个宇宙完成赎罪仪式。</p>
+                </div>
+
+                <div class="concept-card" data-concept="city-scriptwriters">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-tool"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">城市编剧 (City Scriptwriters)</h3>
+                    </div>
+                    <p class="text-gray-400">当某个觉醒者收集足够多罪恶量子，可以短暂化身「城市编剧」，但每次改写规则都会在现实世界引发对应灾难。</p>
+                </div>
+
+                <div class="concept-card" data-concept="memory-capacity">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">记忆容量限制 (Memory Capacity Limit)</h3>
+                    </div>
+                    <p class="text-gray-400">每个人出生时有固定的记忆容量。主角可以同时拥有多个人的记忆，但这会加速自己记忆的崩溃。</p>
+                </div>
+
+                <div class="concept-card" data-concept="parallel-universes">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 bg-zinc-800 rounded-full flex items-center justify-center mr-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold">平行宇宙 (Parallel Universes)</h3>
+                    </div>
+                    <p class="text-gray-400">每次轮回其实是在不同平行宇宙间切换，真正的逃脱需要同时在七个宇宙完成赎罪仪式。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- System section -->
+        <section id="system" class="py-16 border-t border-zinc-800">
+            <h2 class="text-3xl font-bold mb-10">记忆与情绪系统</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Memory System -->
+                <div class="bg-zinc-900 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 lucide lucide-brain"><path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24 2.5 2.5 0 0 1 4.44-2.04Z"/><path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24 2.5 2.5 0 0 0-4.44-2.04Z"/></svg>
+                        <h3 class="text-xl font-semibold">记忆交易系统</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>记忆被视为商品，可以买卖、储存和交换</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>贫穷者可以出售美好记忆换取生存资源</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>记忆伦理委员会监督记忆交易，维护社会秩序</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>地下黑市存在非法记忆交易，包括记忆窃取和记忆炸弹</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Emotion System -->
+                <div class="bg-zinc-900 p-6 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 lucide lucide-heart-handshake"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/><path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9a2.82 2.82 0 0 1 3.79 0l2.96 2.66"/><path d="m18 15-2-2"/><path d="m15 18-2-2"/></svg>
+                        <h3 class="text-xl font-semibold">情绪货币系统</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>情绪直接转化为可流通的货币</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>纯粹的喜悦可以换取生存资源</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>悲伤、愤怒、恐惧都有不同的汇率</span>
+                        </li>
+                        <li class="flex gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-circle flex-shrink-0 h-6 w-6 text-gray-500"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
+                            <span>情绪银行调控情绪市场，防止情绪通货膨胀</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-10 bg-zinc-900 p-6 rounded-lg">
+                <h3 class="text-xl font-semibold mb-4">情绪货币汇率表</h3>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full divide-y divide-zinc-700">
+                        <thead>
+                            <tr>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">情绪类型</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">汇率 (标准单位)</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">稳定性</th>
+                                <th class="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">市场需求</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-zinc-700">
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">纯粹喜悦</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">1.0</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">高</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">极高</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">平静</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">0.8</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">极高</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">高</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">激情</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">0.7</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">中</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">高</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">悲伤</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">0.5</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">低</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">中</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">愤怒</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">0.3</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">极低</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">低</td>
+                            </tr>
+                            <tr>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">恐惧</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">0.2</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">极低</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm">特殊市场</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awakened section -->
+        <section id="awakened" class="py-16 border-t border-zinc-800">
+            <h2 class="text-3xl font-bold mb-10">觉醒者与能力</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-zinc-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">觉醒者的能力</h3>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-start gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles flex-shrink-0 h-5 w-5 text-gray-500 mt-0.5"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                            <span>记忆保留：在时间重置中保存记忆</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles flex-shrink-0 h-5 w-5 text-gray-500 mt-0.5"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                            <span>记忆窃取：通过触摸窃取他人记忆</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles flex-shrink-0 h-5 w-5 text-gray-500 mt-0.5"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                            <span>情绪操控：控制和影响他人情绪</span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles flex-shrink-0 h-5 w-5 text-gray-500 mt-0.5"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+                            <span>罪恶量子吸收：获取力量的同时承担风险</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-zinc-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">城市编剧条件</h3>
+                    <p class="text-gray-400 mb-4">当觉醒者收集足够罪恶量子时，可以短暂成为城市编剧。</p>
+                    <div class="h-6 bg-zinc-800 rounded-full overflow-hidden">
+                        <div class="quantum-meter h-full bg-gradient-to-r from-blue-500 to-purple-500" style="width: 65%"></div>
+                    </div>
+                    <div class="mt-2 text-sm text-gray-500 flex justify-between">
+                        <span>当前罪恶量子值: 65%</span>
+                        <span>城市编剧阈值: 100%</span>
+                    </div>
+                </div>
+                
+                <div class="bg-zinc-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">记忆容量警示</h3>
+                    <p class="text-gray-400 mb-4">每个觉醒者的记忆容量有限。持有过多记忆会导致崩溃。</p>
+                    <div class="memory-capacity-display flex gap-2 flex-wrap">
+                        <div class="memory-unit bg-green-700 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-green-700 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-green-700 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-green-700 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-green-700 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-green-700 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-yellow-500 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-yellow-500 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-red-600 h-6 w-6 rounded-sm"></div>
+                        <div class="memory-unit bg-zinc-700 h-6 w-6 rounded-sm"></div>
+                    </div>
+                    <p class="mt-2 text-sm text-gray-500">记忆容量: 9/10</p>
+                </div>
+            </div>
+            
+            <div class="mt-10">
+                <h3 class="text-xl font-semibold mb-6">觉醒者社会角色</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-zinc-900 p-4 rounded-lg">
+                        <h4 class="text-lg font-medium mb-2">记忆猎人</h4>
+                        <p class="text-gray-400 text-sm">寻找并窃取珍贵记忆，在黑市交易</p>
+                    </div>
+                    <div class="bg-zinc-900 p-4 rounded-lg">
+                        <h4 class="text-lg font-medium mb-2">情绪收集者</h4>
+                        <p class="text-gray-400 text-sm">专门收集特定情绪，制作情绪货币</p>
+                    </div>
+                    <div class="bg-zinc-900 p-4 rounded-lg">
+                        <h4 class="text-lg font-medium mb-2">记忆守护者</h4>
+                        <p class="text-gray-400 text-sm">保护重要记忆不被窃取或篡改</p>
+                    </div>
+                    <div class="bg-zinc-900 p-4 rounded-lg">
+                        <h4 class="text-lg font-medium mb-2">城市观察者</h4>
+                        <p class="text-gray-400 text-sm">研究时间重置规律，寻找逃离方法</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Universes section -->
+        <section id="universes" class="py-16 border-t border-zinc-800">
+            <h2 class="text-3xl font-bold mb-10">七个平行宇宙</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                <div class="universe-card bg-zinc-900 p-6 rounded-lg cursor-pointer hover:bg-zinc-800 transition-colors" data-universe="steampunk">
+                    <h3 class="text-xl font-semibold mb-2">蒸汽朋克宇宙</h3>
+                    <p class="text-gray-400 mb-4">维多利亚时代的科技风格，蒸汽机是主要动力源。工业革命提前爆发，导致环境污染严重。</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <span>觉醒者存在形式: 工程师，发明家</span>
+                        <span class="text-gray-600">点击查看详情</span>
+                    </div>
+                </div>
+
+                <div class="universe-card bg-zinc-900 p-6 rounded-lg cursor-pointer hover:bg-zinc-800 transition-colors" data-universe="magic">
+                    <h3 class="text-xl font-semibold mb-2">魔法世界</h3>
+                    <p class="text-gray-400 mb-4">魔法是普遍存在的，人们可以运用魔法来生活和战斗。魔法战争导致文明衰落，幸存者在废墟中重建家园。</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <span>觉醒者存在形式: 法师，巫师</span>
+                        <span class="text-gray-600">点击查看详情</span>
+                    </div>
+                </div>
+
+                <div class="universe-card bg-zinc-900 p-6 rounded-lg cursor-pointer hover:bg-zinc-800 transition-colors" data-universe="biopunk">
+                    <h3 class="text-xl font-semibold mb-2">生物朋克宇宙</h3>
+                    <p class="text-gray-400 mb-4">生物技术高度发达，基因工程和克隆技术被广泛应用。基因病毒爆发，导致人类变异和生物灾难。</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <span>觉醒者存在形式: 基因工程师，医生</span>
+                        <span class="text-gray-600">点击查看详情</span>
+                    </div>
+                </div>
+
+                <div class="universe-card bg-zinc-900 p-6 rounded-lg cursor-pointer hover:bg-zinc-800 transition-colors" data-universe="cyberpunk">
+                    <h3 class="text-xl font-semibold mb-2">赛博朋克宇宙</h3>
+                    <p class="text-gray-400 mb-4">信息技术高度发达，但社会腐败和贫富差距严重。网络战争导致全球瘫痪，黑客和公司控制了世界。</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <span>觉醒者存在形式: 黑客，网络安全专家</span>
+                        <span class="text-gray-600">点击查看详情</span>
+                    </div>
+                </div>
+
+                <div class="universe-card bg-zinc-900 p-6 rounded-lg cursor-pointer hover:bg-zinc-800 transition-colors" data-universe="wasteland">
+                    <h3 class="text-xl font-semibold mb-2">末日废土宇宙</h3>
+                    <p class="text-gray-400 mb-4">地球环境恶化，资源枯竭，人类在废墟中挣扎求生。核战争导致文明崩溃，幸存者在辐射中建立据点。</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <span>觉醒者存在形式: 幸存者，战士</span>
+                        <span class="text-gray-600">点击查看详情</span>
+                    </div>
+                </div>
+
+                <div class="universe-card bg-zinc-900 p-6 rounded-lg cursor-pointer hover:bg-zinc-800 transition-colors" data-universe="utopia">
+                    <h3 class="text-xl font-semibold mb-2">乌托邦宇宙</h3>
+                    <p class="text-gray-400 mb-4">社会公平，科技发达，人们生活幸福美满。资源分配不均，导致乌托邦出现裂痕。</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <span>觉醒者存在形式: 调解员，社会工作者</span>
+                        <span class="text-gray-600">点击查看详情</span>
+                    </div>
+                </div>
+
+                <div class="universe-card bg-zinc-900 p-6 rounded-lg cursor-pointer hover:bg-zinc-800 transition-colors" data-universe="ancient">
+                    <h3 class="text-xl font-semibold mb-2">历史架空宇宙</h3>
+                    <p class="text-gray-400 mb-4">历史发展与现实世界不同，出现了一些虚构的王朝和事件。农民起义推翻了腐朽的王朝，建立了新的政权。</p>
+                    <div class="flex justify-between text-sm text-gray-500">
+                        <span>觉醒者存在形式: 侠客，义士</span>
+                        <span class="text-gray-600">点击查看详情</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Universe Detail Modal -->
+            <div id="universe-modal" class="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 hidden">
+                <div class="bg-zinc-900 p-6 rounded-lg max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 id="modal-title" class="text-2xl font-bold"></h3>
+                        <button id="close-modal" class="text-gray-400 hover:text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+                        </button>
+                    </div>
+                    <div id="modal-content"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stories section -->
+        <section id="stories" class="py-16 border-t border-zinc-800">
+            <h2 class="text-3xl font-bold mb-10">故事片段</h2>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="bg-zinc-900 p-6 rounded-lg story-card">
+                    <h3 class="text-xl font-semibold mb-4">觉醒者的抉择</h3>
+                    <div class="prose prose-invert max-w-none">
+                        <p class="text-gray-400">黑暗的小巷里，雨水冲刷着地面的血迹。瑞雯握紧手中的记忆提取器，看着倒在血泊中的男人。他是城市编剧的眼线，发现了觉醒者组织的秘密据点。"对不起，"瑞雯低声说道，"为了保护我们的未来，你必须忘记这一切。"她启动了提取器，将男人的记忆抽离出来，然后消失在雨夜中。但这次，她感到了一种前所未有的罪恶感。她开始怀疑，自己所做的一切，究竟是对是错？</p>
+                    </div>
+                    <div class="mt-4 text-sm text-gray-500">相关概念: 觉醒者, 记忆经济, 道德抉择</div>
+                </div>
+                
+                <div class="bg-zinc-900 p-6 rounded-lg story-card">
+                    <h3 class="text-xl font-semibold mb-4">情绪奴隶的觉醒</h3>
+                    <div class="prose prose-invert max-w-none">
+                        <p class="text-gray-400">杰克每天都要服用情绪稳定剂，才能在情绪银行里工作。他的任务是提取快乐情绪，并将其转化为情感颗粒。他厌倦了这种虚假的快乐，渴望体验真实的感情。有一天，他偶然发现了一份关于情绪操控的秘密文件。他意识到，自己和同事们都被公司所操控，成为了情绪奴隶。他决定反抗，他要找回属于自己的真实情感。</p>
+                    </div>
+                    <div class="mt-4 text-sm text-gray-500">相关概念: 情绪货币, 情绪银行, 自由与控制</div>
+                </div>
+                
+                <div class="bg-zinc-900 p-6 rounded-lg story-card">
+                    <h3 class="text-xl font-semibold mb-4">时间重置前的告别</h3>
+                    <div class="prose prose-invert max-w-none">
+                        <p class="text-gray-400">玛丽知道，时间重置即将来临。她找到了自己心爱的男人，约翰。"约翰，你相信我吗？"玛丽问道。"我相信你，永远。"约翰回答道。"即使我告诉你，这个城市会重置，我们会忘记彼此？"玛丽的眼中充满了泪水。"即使那样，我也相信你。"约翰紧紧地抱住了玛丽。"那么，请记住我，"玛丽轻声说道，"在下一个轮回，我们一定会再次相遇。"</p>
+                    </div>
+                    <div class="mt-4 text-sm text-gray-500">相关概念: 时间胶卷, 重置, 记忆与爱情</div>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <h3 class="text-2xl font-semibold mb-6">世界观图片</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="aspect-[16/9] overflow-hidden rounded-lg">
+                        <img src="https://r2.flowith.net/files/99568e35-7385-4cef-8063-30ecf760ca8f/1741860105592-Create.webp" alt="记忆战争概念图" class="w-full h-full object-cover">
+                    </div>
+                    <div class="aspect-[16/9] overflow-hidden rounded-lg">
+                        <img src="https://r2.flowith.net/files/99568e35-7385-4cef-8063-30ecf760ca8f/1741860367828-Concep.webp" alt="世界概念图" class="w-full h-full object-cover">
+                    </div>
+                    <div class="aspect-[16/9] overflow-hidden rounded-lg">
+                        <img src="https://r2.flowith.net/files/99568e35-7385-4cef-8063-30ecf760ca8f/1741860371320-Detail.webp" alt="世界细节图" class="w-full h-full object-cover">
+                    </div>
+                    <div class="aspect-[16/9] overflow-hidden rounded-lg">
+                        <img src="https://r2.flowith.net/files/99568e35-7385-4cef-8063-30ecf760ca8f/1741860371083-Concep.webp" alt="世界概念图2" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-zinc-900 py-8 border-t border-zinc-800">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                    Built with <a href="https://flowith.net" target="_blank" class="text-gray-300 hover:text-white underline">Flowith Oracle</a>.
+                </div>
+                <div class="text-gray-500 text-sm">
+                    © 2023 时间胶卷世界设定 • 版权所有
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+    <script>
+        window.addEventListener("wheel", (e)=> {
+            const isPinching = e.ctrlKey
+            if(isPinching) e.preventDefault()
+        }, { passive: false })
+    </script>
+</body>
+</html>
